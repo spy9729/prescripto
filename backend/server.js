@@ -24,3 +24,4 @@ app.use("/api/user", userRouter);
 app.get("/", (req, res) => {
   res.send("API WORKING");
 });
+export default app;
