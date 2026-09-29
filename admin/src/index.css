@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5f6fff;
+  --grid-template-columns-auto: repeat(auto-fill, minmax(200px, 1fr));
+  --font-sans: 'Outfit', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
